@@ -1,0 +1,12 @@
+{
+    "name": "as3boyan.simple-node-haxe",
+    "title": "Brackets Simple Node Ported to Haxe",
+    "description": "Sample ported to Haxe",
+    "homepage": "https://github.com/as3boyan/brackets-simple-node-haxe",
+    "version": "1.0.0",
+    "author": "as3boyan <as3boyan@gmail.com> (http://your.url)",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.24.0"
+    }
+}

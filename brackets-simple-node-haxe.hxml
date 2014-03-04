@@ -1,0 +1,12 @@
+-cp src
+-js brackets-simple-node-haxe/main.js
+-main Main
+-cp externs/brackets-hx-externs/src
+-cmd "copy brackets-simple-node-haxe\main.js ..\www\extensions\dev\brackets-simple-node-haxe\main.js"
+--next
+-main Node
+-js brackets-simple-node-haxe/node/SimpleDomain.js
+-cp src
+-cp externs/brackets-hx-externs/src
+-cp externs/nodejs-std/src
+-cmd "copy brackets-simple-node-haxe\node\SimpleDomain.js ..\www\extensions\dev\brackets-simple-node-haxe\node\SimpleDomain.js"
